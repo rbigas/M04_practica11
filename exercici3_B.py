@@ -4,6 +4,6 @@ def hacienda():
     ingresos = int(input("Escribe tus ingresos mensuales: "))
 
     if(edad >= 18 and ingresos >= 1200):
-        print("Es necesario que hagas la declaracion de la renta.")
+        return("Es necesario que hagas la declaracion de la renta.")
     else:
-        print("Aun no puedes hacer la declaracion.")
+        return("Aun no puedes hacer la declaracion.")
